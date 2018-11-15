@@ -434,7 +434,6 @@ export default {
     }
 
     > img {
-      // filter: grayscale(100%);
       width: 100%;
     }
   }
