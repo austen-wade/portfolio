@@ -1,0 +1,29 @@
+$black: #222;
+$lightGray: #555;
+$white: #fff;
+
+@mixin _300 {
+	@media (min-width: 300px) {
+		@content;
+	}
+}
+@mixin _400 {
+	@media (min-width: 400px) {
+		@content;
+	}
+}
+@mixin _600 {
+	@media (min-width: 600px) {
+		@content;
+	}
+}
+@mixin _900 {
+	@media (min-width: 900px) {
+		@content;
+	}
+}
+@mixin _1200 {
+	@media (min-width: 1200px) {
+		@content;
+	}
+}
